@@ -15,6 +15,8 @@ db = SQLAlchemy(app)
 
 VALID_CAMPUSES = ["Daytona Beach", "Cocoa", "Sanford-Lake Mary", "Lake Nona", "Downtown", "Rosen"]
 
+#Hello world
+
 class Todo(db.Model):
     id = db.Column(db.Integer, primary_key = True)
     content = db.Column(db.String(200), nullable=False)
