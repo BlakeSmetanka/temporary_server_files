@@ -1,0 +1,91 @@
+{
+    "metadata": {
+        "version": "1.0"
+    },
+    "content": [
+        {
+            "elementType": "toolbar",
+            "left": [
+                {
+                    "elementType": "toolbarMenu",
+                    "items": [
+                        {
+                            "title": "Home",
+                            "link": {
+                                "relativePath": "./m/landing"
+                            }
+                        },
+                        {
+                            "title": "About",
+                            "link": {
+                                "relativePath": "./m/about"
+                            }
+                        },
+                        {
+                            "title": "Contact",
+                            "selected": true,
+                            "link": {
+                                "relativePath": "./m/contact"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "middle": [
+                {
+                    "elementType": "toolbarLabel",
+                    "label": "Knights Pantry"
+                }
+            ],
+            "right": [
+                {
+                    "elementType": "toolbarLabel",
+                    "label": ""
+                }
+            ]
+        },
+        {
+            "elementType": "heading",
+            "title": "Pantry title..."
+        },
+        {
+            "elementType": "list",
+            "showBottomBorder": false,
+            "heading": "Pantry Contact Information",
+            "items": [
+                {
+                    "label": "Phone number",
+                    "title": "number text..."
+                },
+                {
+                    "label": "Address",
+                    "title": "address text...",
+                    "description": "Student Success front desk: UnionWest at Creative Village, Second Floor"
+                }
+            ]
+        },
+        {
+            "elementType": "container",
+            "margins": {
+                "value": "responsive"
+            },
+            "content": [
+                {
+                    "elementType": "googleMap",
+                    "initialZoomLevel": 15,
+                    "aspectRatio": "16:9",
+                    "staticPlacemarks": [
+                        {
+                            "elementType": "mapPoint",
+                            "title": "Knights Pantry",
+                            "point": {
+                                "latitude": 0,
+                                "longitude": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

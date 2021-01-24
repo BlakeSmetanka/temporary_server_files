@@ -1,0 +1,93 @@
+{
+    "metadata": {
+        "version": "1.0"
+    },
+    "content": [
+        {
+            "elementType": "toolbar",
+            "left": [
+                {
+                    "elementType": "toolbarMenu",
+                    "items": [
+                        {
+                            "title": "Home",
+                            "link": {
+                                "relativePath": "./m/landing"
+                            }
+                        },
+                        {
+                            "title": "About",
+                            "selected": true,
+                            "link": {
+                                "relativePath": "./m/about"
+                            }
+                        },
+                        {
+                            "title": "Contact",
+                            "link": {
+                                "relativePath": "./m/contact"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "middle": [
+                {
+                    "elementType": "toolbarLabel",
+                    "label": "Knights Pantry"
+                }
+            ],
+            "right": [
+                {
+                    "elementType": "toolbarLabel",
+                    "label": ""
+                }
+            ]
+        },
+        {
+            "elementType": "heading",
+            "title": "Cocoa Pantry"
+        },
+        {
+            "elementType": "list",
+            "showBottomBorder": false,
+            "heading": "About the Pantry",
+            "items": [
+                {
+                    "title": "about text..."
+                }
+            ]
+        },
+        {
+            "elementType": "form",
+            "relativePath": "",
+            "items": [
+                {
+                    "elementType": "input",
+                    "inputType": "select",
+                    "name": "campus_name",
+                    "label": "Change Pantry Location",
+                    "optionLabels": [
+                        "Downtown",
+                        "Cocoa"
+                    ],
+                    "optionValues": [
+                        "1",
+                        "2"
+                    ],
+                    "value": "2"
+                },
+                {
+                    "elementType": "buttonContainer",
+                    "buttons": [
+                        {
+                            "elementType": "formButton",
+                            "title": "Submit",
+                            "buttonType": "submit"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
